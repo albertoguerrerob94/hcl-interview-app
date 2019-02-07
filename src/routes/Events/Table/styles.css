@@ -1,0 +1,17 @@
+.events {
+  margin-bottom: 50px;
+}
+
+.events .link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.events a, .events span {
+  margin-right: 10px;
+}
+
+.events div {
+  display: inline;
+}

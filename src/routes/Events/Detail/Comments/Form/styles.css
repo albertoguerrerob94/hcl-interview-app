@@ -1,0 +1,13 @@
+.comment__form, .comment__form .row:last-child {
+  margin: 25px 0;
+}
+
+.comment__form .row:last-child {
+  display: flex;
+  justify-content: flex-end;
+  width: 368px;
+}
+
+.comment__form textarea {
+    margin-left: 15px;
+}

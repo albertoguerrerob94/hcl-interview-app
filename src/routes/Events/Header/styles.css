@@ -1,0 +1,15 @@
+.landpage__header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landpage__header h1 {
+  margin-bottom: 0;
+}
+
+.landpage__header a {
+  color: blue;
+  text-decoration: underline;
+  align-self: end;
+}

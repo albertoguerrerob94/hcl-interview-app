@@ -1,0 +1,9 @@
+.homepage-register .row:last-child {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homepage-register .col-sm-9, .homepage-register .col-sm-3 {
+  padding-right: 0;
+}

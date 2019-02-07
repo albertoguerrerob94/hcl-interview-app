@@ -1,0 +1,13 @@
+.homepage-login {
+  margin-left: 50px;
+}
+
+.homepage-login .row:last-child {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homepage-login .col-sm-9 {
+  padding-right: 0;
+}

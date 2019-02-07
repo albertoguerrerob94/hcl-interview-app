@@ -1,0 +1,11 @@
+.homepage h1 {
+  margin-bottom: 30px;
+}
+
+.homepage h2 {
+  margin-bottom: 20px;
+}
+
+.homepage .col-sm:first-child {
+  padding-left: 0;
+}
