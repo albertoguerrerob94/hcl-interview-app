@@ -16,7 +16,7 @@ export default class EventEdit extends PureComponent {
   }
 
   componentDidMount() {
-    const url = `http://localhost:8081/events/${this.state.id}`;
+    const url = `https://aqueous-plains-25700.herokuapp.com/events/${this.state.id}`;
     get(url).then(({ data }) => {
       this.setState({
         name: data.name,

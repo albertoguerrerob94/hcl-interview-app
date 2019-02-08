@@ -21,7 +21,7 @@ export default class Register extends PureComponent {
   handleSubmit(ev) {
     ev.preventDefault();
     if(this.state.password === this.state.password2) {
-      post('http://localhost:8081/users', {
+      post('https://aqueous-plains-25700.herokuapp.com/users', {
         firstName: this.state.firstName,
         lastName: this.state.lastName,
         email: this.state.email,

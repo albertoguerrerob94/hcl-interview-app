@@ -12,7 +12,7 @@ export default class CommentForm extends PureComponent {
 
   handleSubmit(ev) {
     ev.preventDefault();
-    const url = `http://localhost:8081/events/${this.props.eventId}/comment`;
+    const url = `https://aqueous-plains-25700.herokuapp.com/events/${this.props.eventId}/comment`;
     post(url, {
       author: window.sessionStorage.getItem('username'),
       message: this.state.comment

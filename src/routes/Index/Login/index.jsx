@@ -24,7 +24,7 @@ export default class Login extends PureComponent {
   handleSubmit(ev) {
     ev.preventDefault();
     const { email, password } = this.state;
-    post('http://localhost:8081/login', { email, password })
+    post('https://aqueous-plains-25700.herokuapp.com/login', { email, password })
       .then(({ data: { name, state, userid } }) => {
         window.sessionStorage.setItem("username", name);
         window.sessionStorage.setItem("userstate", state);

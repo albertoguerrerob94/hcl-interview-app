@@ -29,7 +29,7 @@ export default class EventsForm extends PureComponent {
     ev.preventDefault();
 
     if(this.state.editing) {
-      const url = `http://localhost:8081/events/${this.props.id}`;
+      const url = `https://aqueous-plains-25700.herokuapp.com/events/${this.props.id}`;
       put(url, {
         name: this.state.name,
         date: this.state.date,
@@ -39,7 +39,7 @@ export default class EventsForm extends PureComponent {
         this.props.redirect();
       });
     } else {
-      post('http://localhost:8081/events', {
+      post('https://aqueous-plains-25700.herokuapp.com/events', {
         host: window.sessionStorage.getItem("username"),
         name: this.state.name,
         date: this.state.date,

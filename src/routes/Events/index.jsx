@@ -12,7 +12,7 @@ export default class Events extends PureComponent {
   }
 
   componentDidMount() {
-    get('http://localhost:8081/events').then(({ data: events }) => {
+    get('https://aqueous-plains-25700.herokuapp.com/events').then(({ data: events }) => {
       const state = window.sessionStorage.getItem('userstate');
       this.setState({
         inStateEvents: events.filter(event => event.state === state),

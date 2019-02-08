@@ -5,7 +5,7 @@ import axios from 'axios';
 export default class Actions extends PureComponent {
   constructor(props) {
     super(props);
-    this.state = { url: `http://localhost:8081/events/${props.id}` };
+    this.state = { url: `https://aqueous-plains-25700.herokuapp.com/events/${props.id}` };
     this.deleteEvent = this.deleteEvent.bind(this);
     this.joinEvent = this.joinEvent.bind(this);
     this.cancelEvent = this.cancelEvent.bind(this);
